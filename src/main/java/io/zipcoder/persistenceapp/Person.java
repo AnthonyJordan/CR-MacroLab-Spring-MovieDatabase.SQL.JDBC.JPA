@@ -9,6 +9,7 @@ public class Person {
     private String lastName;
     private Date birthDay;
     private String mobileNumber;
+    private int homeID;
 
     public int getId() {
         return id;
@@ -48,5 +49,13 @@ public class Person {
 
     public void setMobileNumber(String mobileNumber) {
         this.mobileNumber = mobileNumber;
+    }
+
+    public int getHomeID() {
+        return homeID;
+    }
+
+    public void setHomeID(int homeID) {
+        this.homeID = homeID;
     }
 }
